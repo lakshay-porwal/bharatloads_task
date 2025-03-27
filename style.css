@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header */
+header {
+    background: #0056b3;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.responsive-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.responsive-logo:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .responsive-logo {
+        width: 60px;
+    }
+}
+
+.cta-button {
+    background: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #ff4500;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    background: #ffffff;
+}
+
+.feature {
+    margin: 20px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+/* section workingn */
+.how-it-works {
+    padding: 60px 20px;
+    background: #f1f1f1;
+    font-size: 18px;
+}
+
+/* Network Section */
+.network {
+    padding: 60px 20px;
+    background: #dfe6e9;
+    font-weight: bold;
+}
+
+/* Effortless Matching */
+.effortless-matching {
+    padding: 60px 20px;
+    background: #ffebcc;
+    font-size: 18px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 60px 20px;
+    background: #e3f2fd;
+    font-style: italic;
+}
+
+.testimonial {
+    background: white;
+    padding: 25px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Partnership */
+.partnership {
+    padding: 60px 20px;
+    background: #f1f1f1;
+}
+
+/* Vendors */
+.vendors {
+    padding: 60px 20px;
+    background: #dfe6e9;
+}
+
+/* Call-to-Action */
+.cta {
+    background: #ff6600;
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
